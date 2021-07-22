@@ -1,0 +1,75 @@
+/* === FARBEN === */
+:root {
+  --pgrey: #23272a;
+  --pwhite: #fbfbfb;
+  --font: #0e0c0d;
+  --background: #23272a;
+  --pturquoise: #32c8c8;
+  --sturquoise: #03989e;
+  --turquoise: #03989e;
+  --slightgrey: #a6a6a6;
+  --two: #4391B5;
+  --three:#4E6AA7;
+  --four: #653996;
+  --five: #ae4f8b;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--turquoise);
+  color: var(--font);
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pixel-block {
+  margin: 6px 10px;
+	width: 6em;
+	height: 5em;
+}
+
+.pixelized--heart {
+  display: block;
+  width: 1em;
+  height: 1em;
+  box-shadow:
+  1em 0em var(--background),
+	2em 0em var(--background),
+	4em 0em var(--background),
+	5em 0em var(--background),
+
+	0em 1em var(--background),
+	1em 1em var(--background),
+	2em 1em var(--background),
+	3em 1em var(--background),
+	4em 1em var(--background),
+	5em 1em var(--background),
+	6em 1em var(--background),
+
+	0em 2em var(--background),
+	1em 2em var(--background),
+	2em 2em var(--background),
+	3em 2em var(--background),
+	4em 2em var(--background),
+	5em 2em var(--background),
+	6em 2em var(--background),
+
+	1em 3em var(--background),
+	2em 3em var(--background),
+	3em 3em var(--background),
+	4em 3em var(--background),
+	5em 3em var(--background),
+
+	2em 4em var(--background),
+	3em 4em var(--background),
+	4em 4em var(--background),
+
+	3em 5em var(--background);
+  }
